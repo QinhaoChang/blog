@@ -1,0 +1,22 @@
+{
+  "app": {
+    "name": "blog",
+    "version": "1.0.0",
+    "environment": "development"
+  },
+  "server": {
+    "port": 8080,
+    "contextPath": "/"
+  },
+  "database": {
+    "url": "jdbc:mysql://127.0.0.1:3306/blog",
+    "driver": "com.mysql.cj.jdbc.Driver"
+  },
+  "logging": {
+    "level": "info",
+    "file": "log/blog.log"
+  },
+  "comment": {
+    "avatar": "/images/avatar.png"
+  }
+}
